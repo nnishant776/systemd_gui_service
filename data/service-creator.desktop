@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Systemd Service Creator
+Comment=GUI tool to create systemd services
+GenericName=Systemd Service Creator
+Exec=service_creator
+Icon=application-x-executable-symbolic
+Type=Application
+StartupNotify=false
+Categories=Utility;
+Keywords=Systemd;Service;
+Terminal=false
