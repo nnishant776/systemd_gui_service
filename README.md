@@ -23,6 +23,7 @@ You can install this application by simply using the pre-built package present i
 	$ pip3 install *.whl
 	```
 	<br>
+	
 	**NOTE** : Above command will install this application as a non-privilieged user. If you have admin or `sudo` privilieges and want to install this application system-wide, use below commands.
 	
 	```
@@ -37,8 +38,10 @@ You can install this application by simply using the pre-built package present i
 	
 
 <br>
+
 #### Installation by manual build
 ----
+
 **Note**: This method is pointless unless you are planning to modify this application to your liking or develop it further. For users who simply want this application for general use, it would be better to use previous method.
 
 To build and install this application on your local computer, you need to have `setuptools` and `wheel` packages installed on your system. To check if you have these packages installed, run below command on a terminal.
@@ -101,13 +104,15 @@ $ service_creator
 
 The application will open with a blank page with usual wizard buttons. Clicking "Next" will take you through the configuration windows of different sections of the service as shown below
 
-<img src="https://drive.google.com/uc?export=view&id=12uyvPa0iHK78EcFEVSb317QVH_GP3hiQ" height=500>
-<img src="https://drive.google.com/uc?export=view&id=18ozXFO35wLi_2PvB3Bt5HEYf5rIvoIi1" height=500>
-<img src="https://drive.google.com/uc?export=view&id=1ik7pyGzJ5eUhKdRjjVzO_Z8fgOCXwkpd" height=500>
-<img src="https://drive.google.com/uc?export=view&id=1vgn-WwflRTi339zi4ipvgOw8D2QooDD_" height=500>
-<img src="https://drive.google.com/uc?export=view&id=164b7OZiklz9MVkAWOFJ9EsCwpW-u0wYX" height=500>
-<img src="https://drive.google.com/uc?export=view&id=1602d6IOIyGec1IIVrRX4euBXbH0u0hwZ" height=500>
-<img src="https://drive.google.com/uc?export=view&id=1T7K-mNVmBz55gNZu8i_MAkoJkKD5Tc0I" height=500>
-<img src="https://drive.google.com/uc?export=view&id=1c2DNDJdXf4pNoRIoSEdhdB_40DpZqUkv" height=500>
+<p>
+<img src="https://drive.google.com/uc?export=view&id=12uyvPa0iHK78EcFEVSb317QVH_GP3hiQ" height=480 /> 
+<img src="https://drive.google.com/uc?export=view&id=18ozXFO35wLi_2PvB3Bt5HEYf5rIvoIi1" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=1ik7pyGzJ5eUhKdRjjVzO_Z8fgOCXwkpd" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=1vgn-WwflRTi339zi4ipvgOw8D2QooDD_" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=164b7OZiklz9MVkAWOFJ9EsCwpW-u0wYX" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=1602d6IOIyGec1IIVrRX4euBXbH0u0hwZ" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=1T7K-mNVmBz55gNZu8i_MAkoJkKD5Tc0I" height=480 />
+<img src="https://drive.google.com/uc?export=view&id=1c2DNDJdXf4pNoRIoSEdhdB_40DpZqUkv" height=480 />
+</p>
 
 The application uses `wxPython` for GUI which has added advantage that it will look consistent with your desktop appearance.
