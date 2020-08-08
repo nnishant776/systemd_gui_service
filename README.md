@@ -4,7 +4,33 @@ A GUI application which helps to create a GNU/Linux **`systemd`** service file w
 
 ## Getting Started
 
-To get this application you can follow one of the two listed methods below.
+To get this application working correctly, you first need to have a valid installation of wxPython. Follow the your platform's (distro's) recommended procedure to install wxPython. You can also compile it from the source if you prefer that but make sure that the installation is present in the standard library search path for default operation. Otherwise you may need to tweak this application after installation in order for it to work with your system. Note that this application has been built using the Phoenix version of wxPython, i.e., wxPython 4, so please trigger the installation for version 4 and newer.
+
+Below are the commands for wxpython installation for some popular distros.
+
+*	Ubuntu / Debian / Linux Mint
+	
+	```
+	sudo <package manager> install python3-wxgtk4.0
+	```
+	Where package manager is either `apt` or `apt-get`
+
+*	Fedora / openSUSE / RHEL / CentOS
+
+	```
+	sudo <package manager> install python3-wxpython4
+	```
+	Where package_manager is either `yum` on RHEL and CentOS, `dnf` on Fedora or `zypper` on openSUSE
+
+* 	Arch Linux / Manjaro
+
+	```
+	sudo <package manager> install python3-wxpython
+	```
+	Where package_manager is `pacman` for both Arch and Manjaro
+
+<br>
+After the installation of `wxPython` is done, you can follow any of the below listed methods to install this application.
 
 #### Installation using pre-built package
 ----
